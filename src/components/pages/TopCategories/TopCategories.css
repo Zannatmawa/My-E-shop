@@ -1,0 +1,104 @@
+/* top */
+.categories-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  height: 120px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 50px;
+}
+
+.categories-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 70px;
+}
+
+/* .categories-section div:hover{
+} */
+.categories-section div img {
+  margin-bottom: 7px;
+  width: 30px;
+  height: 30px;
+}
+
+.categories-section a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  width: 150px;
+}
+
+.cardDiv {
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+}
+
+.card img {
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.card .CardTitle {
+  margin: 10px;
+}
+
+.filtered-products {
+  gap: 20px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+
+  /* top */
+  .categories-section {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    height: auto;
+  }
+
+  .categories-section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .categories-section {
+    width: 750px;
+  }
+
+}

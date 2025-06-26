@@ -1,0 +1,101 @@
+.cartDiv {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartDesc {
+    width: 400px;
+    margin: 20px;
+}
+
+.priceDetails {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items span {
+    display: block;
+}
+
+.addAndRemove input {
+    width: 50px;
+    margin: 0 10px;
+}
+
+.totalPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addAndRemove button {
+    width: 40px;
+    height: 30px;
+}
+
+.placeOrder {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 30px;
+}
+
+.placeOrder button {
+    height: 50px;
+    margin-right: 30px;
+}
+
+@media (min-width: 375px) and (max-width:667px) {
+    .cartDiv {
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .cartDiv .crossDiv {
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 330px;
+    }
+
+    .cartDiv img {
+        margin: auto;
+    }
+
+    .cartDesc {
+        width: 300px;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cartDiv {
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        width: 400px;
+    }
+
+    .cartDiv img {
+        margin: auto;
+    }
+
+    .cartDiv .crossDiv {
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 360px;
+    }
+
+}

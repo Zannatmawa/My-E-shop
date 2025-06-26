@@ -1,0 +1,14 @@
+export const LOAD_PRODUCTS = 'LOAD_PRODUCTS'
+export const ADD_PRODUCTS = 'ADD_PRODUCTS'
+export const REMOVE_PRODUCTS = 'REMOVE_PRODUCTS'
+export const ADD_ITEMS = 'ADD_ITEMS'
+export const REMOVE_ITEMS = 'REMOVE_ITEMS'
+export const SET_TOTAL_PRICE = "SET_TOTAL_PRICE";
+
+export const LOAD_ORDERS = 'LOAD_ORDERS'
+
+export const AUTH_SUCCESS = 'AUTH_SUCCESS'
+export const AUTH_FAILED = 'AUTH_FAILED'
+export const AUTH_LOADING = 'AUTH_LOADING'
+export const AUTH_LOGOUT = 'AUTH_LOGOUT'
+
