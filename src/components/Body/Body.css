@@ -58,8 +58,7 @@ span {
         display: flex;
         flex-direction: column;
         height: auto;
-        margin: 20px;
-    }
+        }
 
     .products {
         width: 250px;

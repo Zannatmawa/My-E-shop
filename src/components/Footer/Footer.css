@@ -44,7 +44,7 @@
 /* media queries for 640px screen*/
 @media (min-width: 375px) and (max-width:667px) {
     .Footer {
-        width: 350px;
+        width: auto;
         height: 500px;
         flex-direction: column;
         justify-content: space-around;
@@ -80,6 +80,7 @@
 /* media queries for screen 768 to 1024 */
 @media (min-width: 768px) and (max-width: 1024px) {
     .Footer {
+         width: auto;
         height: 500px;
         flex-direction: column;
         justify-content: space-around;
